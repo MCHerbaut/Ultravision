@@ -64,28 +64,23 @@ h2 {
   background-color: #6236ffbd;
  }
 
- .paragraphe-title {
-  width: 640px;
-  height: 33px;
-  margin: 0 31px 34px 0;
-  font-family: Poppins;
-  font-size: 24px;
-  text-align: center;
-  color: #231f20;
+ .section-title {
+  width: 993px;
+  height: 56px;
+  font-size: 40px;
+  font-weight: 900;
+ }
+
+ .colone {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
-.paragraphe-text {
-  font-family: Poppins;
-  font-size: 16px;
-  text-align: justify;
-  color: #231f20;
-  width: 640px;
-  height: 345px;
-  margin: 34px 31px 30px 0;
-  text-align: justify;
-  color: #231f20;
+.bloc {
+  flex-basis: 0;
+  flex-grow: 1;
 }
-
 
 .image_1{
   width: 487px;
@@ -93,15 +88,6 @@ h2 {
   object-fit: contain;
 }
 
-h4 {
-  width: 640px;
-  height: 33px;
-  margin: 0 31px 34px 0;
-  font-family: Poppins;
-  font-size: 24px;
-  text-align: center;
-  color: #231f20;
-}
 
 h5 {
   /* Default font, size, and margins */
