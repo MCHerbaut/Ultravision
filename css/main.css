@@ -7,37 +7,74 @@
 
 body {
   /* Default font family and font color */
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #231f20;
 }
 
+  /* style de paragraphe par defaut*/
 p, li, textarea, label, input, select {
-  /* Default font size and line height */
 }
-
 
 h1 {
-    font-family: Poppins;
-    font-size: 88px;
-    text-align: center;
-    color:white;
-    background-color: #fcce00;
-  }
-
-h2 {
-  font-family: Poppins;
-  font-size: 38px;
-  text-align: center;
-  color: white;
-  background-color: #ff6b00;
+  font-size: 88px;
 }
 
-h3 {
-  font-family: Poppins;
+h2 {
   font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-title {
+  padding : 15px;
+  background-color: #fcce00bd;
+  color: #ffffff;
+  text-align: center;
   font-weight: 900;
+  line-height: 1;
+}
+
+.header-subtitle {
+  padding : 15px;
+  font-size: 38px;
+  background-color: #ff6b00bd;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.header-stripe {
+ margin: 8px 0;
+}
+
+.header-stripe--red {
+  height: 32px;
+  background-color: #e02020bd;
+ }
+
+ .header-stripe--purple {
+  height: 16px;
+  background-color: #b620e0bd;
+ }
+
+ .header-stripe--blue {
+  height: 8px;
+  background-color: #6236ffbd;
+ }
+
+ .paragraphe-title {
+  width: 640px;
+  height: 33px;
+  margin: 0 31px 34px 0;
+  font-family: Poppins;
+  font-size: 24px;
   text-align: center;
   color: #231f20;
 }
-.paragraphe_1 {  
+
+.paragraphe-text {
   font-family: Poppins;
   font-size: 16px;
   text-align: justify;
@@ -48,6 +85,7 @@ h3 {
   text-align: justify;
   color: #231f20;
 }
+
 
 .image_1{
   width: 487px;
