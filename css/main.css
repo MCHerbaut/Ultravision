@@ -1,19 +1,9 @@
 
-/**
-* -------------
-* Global Styles
-* -------------
-*/
-
 body {
   /* Default font family and font color */
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: #231f20;
-}
-
-  /* style de paragraphe par defaut*/
-p, li, textarea, label, input, select {
 }
 
 h1 {
@@ -71,14 +61,37 @@ h2 {
   font-weight: 900;
  }
 
+ .titre-paragraphe1 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 64px 31px 34px 40px;
+}
+
  .colone {
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  margin-top: 64px;
 }
 
-.bloc {
+.bloc2  {
+  background-image: url(../img/bg-yellow.svg);
+  flex-basis: 0px;
+  flex-grow: 1;
+  width: 720px;
+  height: 512px;
+  margin: 64px 0px 0px 0px;
+  }
+
+  .titre-paragraphe2 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+.bloc1 {
   flex-basis: 0;
   flex-grow: 1;
   text-align: justify;
@@ -86,67 +99,63 @@ h2 {
   margin-right: 30px;
 }
 
+.bloc4 {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: justify;
+  margin: 64px 0px 0px 33px;
+}
+
+.bloc3  {
+  background-image: url(../img/bg-orange.svg);
+  flex-basis: 0;
+  flex-grow: 1;
+  width: 720px;
+  height: 512px;
+  margin: 64px 0px 0px 0px;
+  }
+
+
 .button {
-  width: 185px;
-  height: 48px;
-  margin: 30px 31px 22px 455px;
   padding: 10px 36px;
   border-radius: 15px;
   border: solid 4px #fcce00;
-}
-
-
-h3 {
   font-family: Poppins;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
+  font-size: 20px;
+  color: #fcce00;
+  text-decoration: none;
+  margin: 30px 31px 22px 455px;
+  width: 185px;
+  height: 48px;
 }
-
 
 .image_1 {
   width: 487px;
   height: 471px;
+  margin: 40px 10px 1px 223px;
   object-fit: contain;
-  margin-left: 255px;
+  margin left: auto;
+  display: block;
+}
+
+
+.button-2 {
+  width: 113px;
+  height: 28px;
+  padding: 10px 36px;
+  border-radius: 15px;
+  border: solid 4px #ff6b00;
+  font-family: Poppins;
+  font-size: 20px;
+  color:#ff6b00;
+  text-decoration: none;
+  margin: 32px 14px 150px 487px;
 }
 
 .image_2 {
   width: 378px;
   height: 486px;
   object-fit: contain;
+  margin right: auto;
+  display: block;
 }
-
-
-h5 {
-  /* Default font, size, and margins */
-}
-
-h6 {
-  /* Default font, size, and margins */
-}
-
-
-a {
-  /* Link color */
-}
-
-a:hover {
-  /* Link color on mouse over */
-}
-
-
-/**
-* ------
-* Layout
-* ------
-*/
-
-
-
-
-/**
-* ----------
-* Components
-* ----------
-*/
