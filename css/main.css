@@ -71,7 +71,7 @@ h2 {
 
  .colone {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: stretch;
 }
 
@@ -92,12 +92,23 @@ h2 {
   }
 
 .bloc1 {
-  flex-basis: 0;
+  flex-basis: 320px;
   flex-grow: 1;
   text-align: justify;
   margin-left: 30px;
   margin-right: 30px;
 }
+
+.text1 {
+padding-left: 48px;
+padding-right: 32px;
+}
+
+.text2 {
+  padding-left: 48px;
+  padding-right: 32px;
+  }
+
 
 .bloc4 {
   flex-basis: 0;
@@ -124,7 +135,6 @@ h2 {
   font-size: 20px;
   color: #fcce00;
   text-decoration: none;
-  margin: 30px 31px 22px 455px;
   width: 185px;
   height: 48px;
 }
@@ -132,10 +142,11 @@ h2 {
 .image_1 {
   width: 487px;
   height: 471px;
+  margin left: auto;
   margin: 40px 10px 1px 223px;
   object-fit: contain;
-  margin left: auto;
   display: block;
+  mix-blend-mode: darken;
 }
 
 
@@ -149,7 +160,6 @@ h2 {
   font-size: 20px;
   color:#ff6b00;
   text-decoration: none;
-  margin: 32px 14px 150px 487px;
 }
 
 .image_2 {
@@ -158,4 +168,6 @@ h2 {
   object-fit: contain;
   margin right: auto;
   display: block;
+  mix-blend-mode: darken;
+  margin: 26px 171px 0px 171px;
 }
