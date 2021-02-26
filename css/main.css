@@ -77,11 +77,10 @@ h2 {
 
 .bloc2  {
   background-image: url(../img/bg-yellow.svg);
-  flex-basis: 1px;
+  flex-basis: 320px;
   flex-grow: 1;
   width: 720px;
   height: 512px;
-  margin: 64px 0px 0px 0px;
   }
 
   .titre-paragraphe2 {
@@ -94,6 +93,15 @@ h2 {
 .bloc1 {
   flex-basis: 320px;
   flex-grow: 1;
+  text-align: justify;
+}
+
+.paragraphe1 {
+  width: 640px;
+  height: 345px;
+  margin: 34px 31px 30px 0;
+  font-family: Poppins;
+  font-size: 16px;
   text-align: justify;
 }
 
