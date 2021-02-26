@@ -136,19 +136,13 @@ padding-right: 32px;
     border-radius: 15px;
     border: solid 4px;
     text-decoration: none;
+    margin-left: 503px;
+    text-align: center;
+    font-weight: bold;
+    color: #fcce00;
+    font-size: 20px;
   }
   
-  .learn-more{
-    width: 113px;
-    font-size: 20px;
-    color: #fcce00;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-  }
 
 .image_1 {
   margin: 40px 10px 1px 223px;
@@ -164,19 +158,12 @@ padding-right: 32px;
     border: solid 4px;
     text-decoration: none;
   color:#ff6b00;
+  margin-left: 450px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
 }
 
-.learn-more2{
-  width: 113px;
-  font-size: 20px;
-  color:#ff6b00;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-}
 
 .image_2 {
   object-fit: contain;
@@ -195,25 +182,18 @@ padding-right: 32px;
 
 .button-3 {
   display: block;
-    margin: auto 31px 22px auto;
-    padding: 10px 36px 10px 36px;
+    padding: 7px 24px 7px 23px;
     border-radius: 15px;
     border: solid 4px;
     text-decoration: none;
   color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 450px;
+  margin-left: 60px;
+  font-weight: bold;
 }
 
-.learn-more3{
-  width: 113px;
-  font-size: 20px;
-  color: white;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-}
 
 .image_3 {
   object-fit: contain;
@@ -229,6 +209,8 @@ padding-right: 32px;
   font-size: 32px;
   font-weight: 900;
   color: white;
+  margin-left: 60px;
+  margin-top: 60px;
 }
 
 .paragraphe3{
@@ -236,6 +218,8 @@ padding-right: 32px;
   font-family: Poppins;
   font-size: 24px;  
   color: white;
+  margin-left: 60px;
+  margin-top: 60px;
 }
 
 .colone3 {
@@ -281,5 +265,23 @@ padding-right: 32px;
   margin: 64 561.5px auto 562.5px;
   text-align: center;
   color: white;
-
  }
+
+ .form-row{
+  display: flex;
+  justify-content: space-around;
+  background-color: #231f20;
+  color: white;
+ }
+
+ .grille{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap: 20px;
+   background-color: #231f20;
+   
+ }
+
+ .cellule {
+  grid-column: span 1;
+}
