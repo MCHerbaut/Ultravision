@@ -267,21 +267,79 @@ padding-right: 32px;
   color: white;
  }
 
- .form-row{
+
+ .game-list {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 32px;
+   background-color: #231f20;
+ }
+
+ .game {
+  position: relative;
+  margin: 32px 32px 32px 0px;
+}
+
+.game_content{
+  position:absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  background-color: #231f20;
+  transition: opacity 100ms, transform 100ms;
+  transform: translateX(-10px) ;
+}
+
+.game:hover .game_content {
+  opacity: 1;
+  transform: translateX(0px) ;
+}
+
+.game_cover {
+ display: block;
+}
+
+.game_category{
+  font-size: 14px;
+  color: white;
+  margin: 16px 101px 8px 102px;
+  text-align: center;
+ }
+
+.game_title {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  color: #fcce00;
+}
+ 
+.game_description {
+  margin: 32px 20px;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+}
+
+.game_title2 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  color: #ff6b00;
+}
+
+.colone6 {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  background-color: #231f20;
+}
+.form-row{
   display: flex;
   justify-content: space-around;
   background-color: #231f20;
   color: white;
  }
-
- .grille{
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
-   grid-gap: 20px;
-   background-color: #231f20;
-   
- }
-
- .cellule {
-  grid-column: span 1;
-}
