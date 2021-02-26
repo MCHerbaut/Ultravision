@@ -253,3 +253,33 @@ padding-right: 32px;
   margin: 26px 171px 0px 0px;
 }
 
+.colone4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  background-image: url(../img/bg-blue.svg);
+}
+
+.image_5 {
+  object-fit: contain;
+  margin right: auto;
+  display: block;
+  mix-blend-mode: darken;
+  margin: 26px 171px 0px 0px;
+}
+
+.colone5 {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  background-color: #231f20;
+}
+
+.section-title2 {
+  font-size: 40px;
+  font-weight: 900;
+  margin: 64 561.5px auto 562.5px;
+  text-align: center;
+  color: white;
+
+ }
